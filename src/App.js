@@ -1,6 +1,11 @@
 import React from "react";
 import "./styles.css";
 
-export default function App() {
-  return <div>Replace me with your Component!</div>;
+export default function HelloWorldArticle() {
+  return (
+    <article>
+      <h1>Hello, World!</h1>
+      <p>This is a simple example Text.</p>
+    </article>
+  );
 }
